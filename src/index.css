@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  font-family: "Mulish", serif;
+  font-optical-sizing: auto;
+}
+/* Home */
+/* .home{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f0f0f0;
+
+}
+.home img{
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+.home .home-text{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.home .home-text h1{
+  font-size: 4.5vw;
+}
+@media screen and (max-width:767px) {
+  .home .home-text{
+    /* position: relative;
+    top: 25%;
+  }
+} */
+
+/* .rating{
+  width: 100%;
+  height: 40vh;
+  background-color: #837575;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.rating-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 45px;
+  h2{
+    font-size: 2.5vw;
+  }
+  h1{
+    font-size: 3vw;
+  }
+}
+.rating-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #f4e6de;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.402);
+  p{
+    font-size: 1.2vw;
+  }
+}
+.rating-right{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  p{
+    font-size: 1.5vw;
+  }
+  } */
+
