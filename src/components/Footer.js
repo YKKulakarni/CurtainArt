@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaXTwitter, FaYoutube } from "react-icons/fa6
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8 mt-1">
+    <footer className="w-full bg-gray-800 text-white py-1 mt-5" id="footer">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
         {/* About Us Section */}
         <div>
@@ -40,7 +40,7 @@ const Footer = () => {
               <FaFacebookF className="w-5 h-5" />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/_curtain_art?igsh=MTNyZ2MyaXF1eXdneQ=="
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-100 p-2 rounded-full hover:bg-pink-600 transition"
