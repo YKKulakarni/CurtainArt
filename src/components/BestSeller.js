@@ -32,13 +32,13 @@ function BestSeller() {
                     transition={{ duration: 0.9 }}
                 >
                     <motion.img
-                        src={require('../assest/images/BestSeller-One.jpg')}
+                        src={require('../assets/images/BestSeller-One.jpg')}
                         className='w-1/2 h-full'
                         alt="Best Seller"
                         whileHover={{ scale: 1.01 }}
                     />
                     <motion.img
-                        src={require('../assest/images/BestSeller-Two.jpg')}
+                        src={require('../assets/images/BestSeller-Two.jpg')}
                         className='w-1/2 h-full'
                         alt="Best Seller"
                         whileHover={{ scale: 1.01 }}
@@ -52,7 +52,7 @@ function BestSeller() {
                     transition={{ duration: 0.9 }}
                 >
                     <motion.img
-                        src={require('../assest/images/BestSeller-Three.jpg')}
+                        src={require('../assets/images/BestSeller-Three.jpg')}
                         className='w-full h-full'
                         alt="Best Seller"
                         whileHover={{ scale: 1.01 }}

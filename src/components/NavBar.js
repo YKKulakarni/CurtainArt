@@ -1,6 +1,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import newLogo from '../assest/images/newLogo.png';
+import newLogo from '../assets/images/newLogo.png';
 
 const navigation = [
     { name: 'HOME', href: '#', current: true },

@@ -1,7 +1,7 @@
 import React from 'react';
-import CurtainOne from '../assest/images/Curtain-1.jpg';
-import CurtainTwo from '../assest/images/Curtain-2.jpg';
-import CurtainThree from '../assest/images/Curtain-3.jpg';
+import CurtainOne from '../assets/images/Curtain-1.jpg';
+import CurtainTwo from '../assets/images/Curtain-2.jpg';
+import CurtainThree from '../assets/images/Curtain-3.jpg';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
