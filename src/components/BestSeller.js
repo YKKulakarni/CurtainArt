@@ -5,7 +5,6 @@ import { useInView } from 'react-intersection-observer';
 function BestSeller() {
     const [ref1, inView1] = useInView({ triggerOnce: true, threshold: 0.2 });
     const [ref2, inView2] = useInView({ triggerOnce: true, threshold: 0.2 });
-    const [ref3, inView3] = useInView({ triggerOnce: true, threshold: 0.2 });
 
     return (
         <div className='w-full h-fit flex flex-col items-center justify-center'>
